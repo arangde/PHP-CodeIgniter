@@ -1,0 +1,23 @@
+<div class="ui-block-c">
+<a id="clear_cache" class="ui-btn ui-mini ui-btn-inline ui-btn-icon-left ui-corner-top
+ui-corner-bottom ui-controlgroup-last ui-btn-up-a" data-inline="true" data-mini="true"
+data-icon="gear" data-role="button" href="#" data-corners="true" data-shadow="true" data-iconshadow="true"
+data-wrapperels="span" data-theme="a">
+<span class="ui-btn-inner ui-corner-top ui-corner-bottom ui-controlgroup-last">
+<span class="ui-btn-text">Clear Cache</span>
+<span class="ui-icon ui-icon-gear ui-icon-shadow"> </span>
+</span>
+</a>
+</div>
+
+<div class="ui-block-c">
+<a id="clear_cache" class="ui-btn ui-mini ui-btn-inline ui-btn-icon-left ui-corner-top
+ui-corner-bottom ui-controlgroup-last ui-btn-up-a" data-inline="true" data-mini="true"
+data-icon="gear" data-role="button" href="#" data-corners="true" data-shadow="true" data-iconshadow="true"
+data-wrapperels="span" data-theme="a">
+<span class="ui-btn-inner ui-corner-top ui-corner-bottom ui-controlgroup-last">
+<span class="ui-btn-text">Clear Cache</span>
+<span class="ui-icon ui-icon-gear ui-icon-shadow"> </span>
+</span>
+</a>
+</div>

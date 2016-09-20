@@ -1,0 +1,26 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ ./index.php?/$1 [L,QSA]
+#RewriteRule ^(.*)$ index.php/$1 [L]
+
+<Files "index.php">
+AcceptPathInfo On
+</Files>
+
+#RewriteEngine on
+#Options +FollowSymLinks
+#RewriteBase /
+
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ /index.php/$1
+
+#RewriteCond %{HTTPS} off
+#RewriteCond %{REQUEST_URI} (assets)
+#RewriteRule ^(.*)$ https://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
+
+#RewriteCond %{HTTPS} on
+#RewriteCond %{REQUEST_URI} !(assets)
+#RewriteRule ^(.*)$ http://%{SERVER_NAME}%{REQUEST_URI} [R=301,L]
